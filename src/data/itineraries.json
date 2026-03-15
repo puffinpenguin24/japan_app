@@ -1,0 +1,1050 @@
+[
+  {
+    "id": "kids-summer-tokyo-kyoto",
+    "travelerType": "Kids <5",
+    "season": "Summer",
+    "durationDays": 5,
+    "title": "Playful Tokyo & Kyoto with Littles",
+    "summary": "Gentle-paced, stroller-friendly summer adventure focused on sensory play and short transit hops.",
+    "sources": ["10-day-family-with-disneyland", "5-days-in-tokyo"],
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Neighborhood Explorations",
+        "location": "Tokyo - Shinjuku / Shibuya",
+        "timeOfDay": "Afternoon & Evening",
+        "activities": [
+          "Check into a family-friendly hotel near a major station (stroller access and coin laundry).",
+          "Walk through Shinjuku Gyoen for wide paths, shade, and space to run.",
+          "Early dinner at a family-friendly izakaya with private booths or a department store food hall."
+        ],
+        "proTip": "Look for barrier-free station exits on signage—often marked with elevator icons—to avoid long staircases with a stroller."
+      },
+      {
+        "day": 2,
+        "title": "Kid Museums & Gentle City Sights",
+        "location": "Tokyo - Odaiba",
+        "timeOfDay": "Morning & Afternoon",
+        "activities": [
+          "Ride the Yurikamome line for a driverless 'train ride' over the Rainbow Bridge—kids love sitting in the front row.",
+          "Visit teamLab Planets or a children’s museum with interactive exhibits (prebook tickets).",
+          "Cool down at indoor malls with kids’ play areas and easy food options."
+        ],
+        "proTip": "Pack a small foldable picnic mat—many parents use them in parks, museums, or station waiting areas for quick snack breaks."
+      },
+      {
+        "day": 3,
+        "title": "Kyoto Temples at Toddler Pace",
+        "location": "Kyoto - Arashiyama",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Take an early Shinkansen to Kyoto and head to Arashiyama before crowds build.",
+          "Walk the bamboo grove using a carrier instead of a stroller for narrower paths.",
+          "Visit a small temple with gardens where little ones can explore safely."
+        ],
+        "proTip": "Buy ekiben (bento boxes) at the station so kids can eat whenever they get hungry on the Shinkansen, not just at set meal times."
+      },
+      {
+        "day": 4,
+        "title": "Animal Encounters & Playgrounds",
+        "location": "Kyoto - City Zoo & Local Park",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Visit a small city zoo or aquarium with short walking loops.",
+          "Break up the day with a local playground stop so little ones can climb and slide.",
+          "Return early to your stay for bath time and a relaxed dinner nearby."
+        ],
+        "proTip": "Check stroller and locker options at zoos and aquariums in advance so you can travel light inside."
+      },
+      {
+        "day": 5,
+        "title": "Departure with Last-Minute Treats",
+        "location": "Kyoto or Tokyo Station",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Let kids pick one small toy or snack from station shops as a farewell treat.",
+          "Use station play corners or quiet waiting areas to burn off energy before the train or flight.",
+          "Keep the final day schedule intentionally light in case of nap surprises."
+        ],
+        "proTip": "Have one small surprise activity ready (like a new sticker book) for transit delays or airport waits."
+      }
+    ]
+  },
+  {
+    "id": "kids-winter-onsen",
+    "travelerType": "Kids <5",
+    "season": "Winter",
+    "durationDays": 5,
+    "title": "Cozy Onsen Escape with Toddlers",
+    "summary": "Warm indoor attractions and short walks, with kid-friendly hot springs.",
+    "sources": ["8-day-highlight-of-japan", "10-day-explore-with-hiroshima"],
+    "days": [
+      {
+        "day": 1,
+        "title": "Indoor Play & Warm Treats",
+        "location": "Tokyo - Ikebukuro",
+        "timeOfDay": "Afternoon",
+        "activities": [
+          "Visit an indoor kids’ playground or character-themed store inside a department store.",
+          "Warm up with taiyaki (fish-shaped cakes) and hot cocoa.",
+          "Early night to adjust to jet lag."
+        ],
+        "proTip": "Always have a change of socks in winter—many indoor play areas and shrines require shoes off, and dry socks keep kids happy."
+      },
+      {
+        "day": 2,
+        "title": "Snow Views & Onsen Ryokan",
+        "location": "Hakone or Nikko",
+        "timeOfDay": "Full Day",
+        "activities": [
+          "Take a limited express train to a mountain onsen town with easy station access.",
+          "Check into a family-friendly ryokan with private onsen so parents can rotate bath time.",
+          "Enjoy a multi-course kaiseki dinner where staff can adapt dishes for kids."
+        ],
+        "proTip": "Look for ryokan that offer kids’ yukata—toddlers love matching outfits and it makes for memorable photos."
+      },
+      {
+        "day": 3,
+        "title": "Quiet Snowy Morning",
+        "location": "Onsen Town",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Take a short walk to see snow-covered streets and rivers from stroller-friendly paths.",
+          "Warm up with a simple café breakfast or bakery stop.",
+          "Build a mini snowman outside your ryokan if there is safe space."
+        ],
+        "proTip": "Pack thin, layered clothing for toddlers so you can easily adjust between cold streets and overheated trains or shops."
+      },
+      {
+        "day": 4,
+        "title": "Indoor Crafts & Story Time",
+        "location": "Ryokan or Hotel",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Plan a slow indoor day with coloring books, origami, or simple craft kits.",
+          "Rotate solo onsen time for each parent while the other reads stories with the kids.",
+          "Order an early, simple dinner to keep the evening calm."
+        ],
+        "proTip": "Use hotel kettles to make instant miso soup or warm milk for a comforting toddler snack."
+      },
+      {
+        "day": 5,
+        "title": "Return to Tokyo & Souvenir Stop",
+        "location": "Tokyo Station Area",
+        "timeOfDay": "Afternoon",
+        "activities": [
+          "Travel back to Tokyo with flexible train times to match naps.",
+          "Stop at a character street inside Tokyo Station for last-minute souvenirs.",
+          "Keep bedtime consistent so kids land at home with an easier transition."
+        ],
+        "proTip": "Buy small, flat souvenirs (like stickers or washi tape) that pack easily even if your luggage is already full of winter clothes."
+      }
+    ]
+  },
+  {
+    "id": "teens-summer-adventure",
+    "travelerType": "Teens",
+    "season": "Summer",
+    "durationDays": 10,
+    "title": "Anime, Arcades & Urban Adventures",
+    "summary": "High-energy city days with late-night lights and interactive experiences.",
+    "sources": ["11-day-teens-staying-blonde", "11-day-teens-kimkim"],
+    "days": [
+      {
+        "day": 1,
+        "title": "Akihabara & Retro Arcades",
+        "location": "Tokyo - Akihabara",
+        "timeOfDay": "Afternoon & Evening",
+        "activities": [
+          "Explore anime shops, manga megastores, and capsule toy (gacha) halls.",
+          "Visit a multi-floor arcade and challenge each other at rhythm games.",
+          "Finish with a themed café or ramen spot popular with locals."
+        ],
+        "proTip": "Set a gacha budget per teen to avoid overspending and make collecting more intentional."
+      },
+      {
+        "day": 2,
+        "title": "Harajuku Style & Shibuya Crossing",
+        "location": "Tokyo - Harajuku / Shibuya",
+        "timeOfDay": "Afternoon & Night",
+        "activities": [
+          "Walk Takeshita Street for crepes, vintage shops, and photo booths.",
+          "Visit Shibuya Sky at sunset for skyline views and Instagram-ready shots.",
+          "Cross Shibuya Scramble multiple times and film time-lapse videos."
+        ],
+        "proTip": "Have teens download Suica/PASMO apps on their phones where available—tapping through gates independently gives them a sense of freedom while you still oversee routes."
+      },
+      {
+        "day": 3,
+        "title": "Studio Tours & Anime Pilgrimage",
+        "location": "Tokyo - Various",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Visit anime-related landmarks or small museums featured in their favorite shows.",
+          "Plan a walking route that connects at least two anime or manga locations.",
+          "Finish with a character café or dessert spot."
+        ],
+        "proTip": "Let teens pick one \"must see\" location each and co-design the route in a shared map app."
+      },
+      {
+        "day": 4,
+        "title": "Tech District & Retro Gaming",
+        "location": "Odaiba or Ikebukuro",
+        "timeOfDay": "Afternoon & Evening",
+        "activities": [
+          "Explore a tech mall or electronics district for gadgets and accessories.",
+          "Find a retro arcade or game center to compare old and new games.",
+          "Grab dinner at a casual spot that stays open late."
+        ],
+        "proTip": "Encourage teens to compare prices and features before buying electronics—it becomes a mini research exercise."
+      },
+      {
+        "day": 5,
+        "title": "Day Trip to Yokohama or Kawagoe",
+        "location": "Greater Tokyo",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Take a short train ride to a nearby city for a change of scenery.",
+          "Walk historic streets or waterfront areas with plenty of snack breaks.",
+          "Return to Tokyo in time for an easy dinner near your stay."
+        ],
+        "proTip": "Use day trips to practice teens navigating transfers and platform changes while you observe from a step behind."
+      },
+      {
+        "day": 6,
+        "title": "Night Views & River Cruise",
+        "location": "Tokyo - Sumida River or Bay",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Take an evening river cruise or bay cruise to see city lights from the water.",
+          "Pair the cruise with a simple noodle or curry dinner beforehand.",
+          "Stop for convenience store desserts on the way back."
+        ],
+        "proTip": "Bring a lightweight layer for cooler breezes on the water, even in summer."
+      },
+      {
+        "day": 7,
+        "title": "Free Exploration Day",
+        "location": "Tokyo Neighborhoods",
+        "timeOfDay": "Flexible",
+        "activities": [
+          "Give teens a budget and let them choose their own neighborhoods to explore in small groups.",
+          "Set clear meetup points and times at major stations.",
+          "Compare photos and favorite finds over dinner."
+        ],
+        "proTip": "Use this day to simulate how they might travel with friends later, while still having your safety net in place."
+      },
+      {
+        "day": 8,
+        "title": "Tokyo Disney or Theme Park",
+        "location": "Tokyo Disney Resort or Similar",
+        "timeOfDay": "Full Day",
+        "activities": [
+          "Spend a full day at a theme park focused on coasters and shows.",
+          "Use mobile apps to track wait times and plan rides.",
+          "Stay for nighttime parades or light shows if energy allows."
+        ],
+        "proTip": "Pick one \"must do\" ride per person first, then treat everything else as a bonus to keep expectations realistic."
+      },
+      {
+        "day": 9,
+        "title": "Shopping & Packing Buffer",
+        "location": "Tokyo - Shinjuku or Shibuya",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Use this buffer day for last-minute shopping and arcade rematches.",
+          "Start packing and weighing luggage to avoid last-minute stress.",
+          "Choose an easy, familiar restaurant for a low-energy dinner."
+        ],
+        "proTip": "Have each teen choose one item to leave behind or gift to make room for new finds."
+      },
+      {
+        "day": 10,
+        "title": "Departure & Reflection",
+        "location": "Tokyo - Airport",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Travel to the airport with extra time to handle souvenir tax refunds or check-in lines.",
+          "Ask each teen to share their top three moments and one thing they would change next time.",
+          "Capture a final group photo before boarding."
+        ],
+        "proTip": "Use airport downtime to jot down lessons learned for your next trip—and for your interview story."
+      }
+    ]
+  },
+  {
+    "id": "teens-winter-ski",
+    "travelerType": "Teens",
+    "season": "Winter",
+    "durationDays": 10,
+    "title": "Powder Days & Night Cities",
+    "summary": "Combine world-class snow with neon evenings in Tokyo.",
+    "sources": ["10-day-explore-with-hiroshima", "8-day-highlight-of-japan"],
+    "days": [
+      {
+        "day": 1,
+        "title": "Tokyo Night Views & Street Food",
+        "location": "Tokyo - Asakusa / Skytree",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Arrive in Tokyo and head to Asakusa for illuminated Senso-ji.",
+          "Ride up Tokyo Skytree or Tokyo Tower for night views.",
+          "Explore small izakaya streets, ordering shared plates for the table."
+        ],
+        "proTip": "Encourage teens to try ordering in simple Japanese phrases—staff are usually patient and it becomes a fun challenge."
+      },
+      {
+        "day": 2,
+        "title": "Ski Day Trip from Tokyo",
+        "location": "Gala Yuzawa or Karuizawa",
+        "timeOfDay": "Full Day",
+        "activities": [
+          "Take an early Shinkansen directly to a ski resort station.",
+          "Rent gear on-site and book half-day lessons if needed.",
+          "Soak in an onsen or foot bath at the end of the day before returning to Tokyo."
+        ],
+        "proTip": "Reserve Shinkansen seats in advance for large families so everyone can sit together even on busy holiday weeks."
+      },
+      {
+        "day": 3,
+        "title": "Gear Check & Local Neighborhoods",
+        "location": "Tokyo - Local Area",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Check winter gear, gloves, and layers before heading into longer snow days.",
+          "Explore a quieter neighborhood for lunch and small shops.",
+          "Turn in early to be rested for more ski time."
+        ],
+        "proTip": "Dry gloves and socks overnight near gentle heat sources—not directly on heaters—to extend their life."
+      },
+      {
+        "day": 4,
+        "title": "Second Ski or Snow Play Day",
+        "location": "Nearby Ski Resort",
+        "timeOfDay": "Full Day",
+        "activities": [
+          "Return to the same ski area or try a new mountain for variety.",
+          "Mix full runs with sledding or snow-play breaks for different energy levels.",
+          "End with hot drinks and simple comfort food."
+        ],
+        "proTip": "Have teens track their own costs—lift tickets, rentals, snacks—to keep a realistic sense of winter sport budgets."
+      },
+      {
+        "day": 5,
+        "title": "Onsen Recovery Day",
+        "location": "Onsen Town or Tokyo Spa",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Visit an onsen or large public bath complex to rest tired muscles.",
+          "Try different bath types (outdoor, carbonated, jet baths) while following etiquette.",
+          "Grab dinner at a nearby izakaya or food court."
+        ],
+        "proTip": "Remind teens to hydrate well on onsen days—the heat plus winter dry air can sneak up on them."
+      },
+      {
+        "day": 6,
+        "title": "Historical Day Trip",
+        "location": "Nikko or Kamakura",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Take a day trip to a town with temples, shrines, or castles dusted in snow.",
+          "Climb a few staircases for viewpoints if paths are clear.",
+          "Try warm street snacks like sweet potatoes or mochi."
+        ],
+        "proTip": "Use this day to balance action-heavy ski days with slower cultural learning for your trip narrative."
+      },
+      {
+        "day": 7,
+        "title": "Shopping & Arcade Rematches",
+        "location": "Tokyo - Shinjuku / Ikebukuro",
+        "timeOfDay": "Afternoon & Evening",
+        "activities": [
+          "Browse shops for winter fashion, souvenirs, or character goods.",
+          "Return to a favorite arcade to settle friendly rivalries.",
+          "End the night with hot pot or ramen."
+        ],
+        "proTip": "Have teens choose experiences over objects when budgets get tight—like extra karaoke time instead of more souvenirs."
+      },
+      {
+        "day": 8,
+        "title": "Photo Walk & Content Day",
+        "location": "Tokyo - Various",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Plan a route focused on capturing winter cityscapes, snow scenes, and neon.",
+          "Batch-edit photos or short videos back at the hotel.",
+          "Share a curated set with friends or family back home."
+        ],
+        "proTip": "Ask teens to limit themselves to 10 favorite photos for the day to practice editing and storytelling."
+      },
+      {
+        "day": 9,
+        "title": "Flexible Free Day",
+        "location": "Tokyo",
+        "timeOfDay": "Flexible",
+        "activities": [
+          "Let everyone pick how to spend their own time with clear safety boundaries.",
+          "Use this day to handle any logistics or shopping missed earlier.",
+          "Meet for a final celebratory dinner."
+        ],
+        "proTip": "This is a good day to test how independently teens can navigate before heading home."
+      },
+      {
+        "day": 10,
+        "title": "Departure & Debrief",
+        "location": "Tokyo - Airport",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Head to the airport with generous buffer time for winter transit delays.",
+          "Reflect on what worked best for ski days versus city days.",
+          "Capture your final \"goodbye Tokyo\" shot together."
+        ],
+        "proTip": "Note how winter packing affected your experience so you can optimize layers and luggage next time."
+      }
+    ]
+  },
+  {
+    "id": "couples-summer-romantic",
+    "travelerType": "Couples",
+    "season": "Summer",
+    "durationDays": 10,
+    "title": "Romantic Nights & Hidden Alleys",
+    "summary": "Slow rhythms, evening walks, and intimate dining spots.",
+    "sources": ["10-day-ultimate-luxury", "3-week-itinerary-cities-alps"],
+    "days": [
+      {
+        "day": 1,
+        "title": "Lanterns & Riverside Strolls",
+        "location": "Kyoto - Gion / Pontocho",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Check into a machiya-style stay in central Kyoto.",
+          "Walk through Gion’s lantern-lit alleys at dusk, keeping respectful distance from residents.",
+          "Dine along Pontocho Alley at a riverside restaurant with terrace seating."
+        ],
+        "proTip": "Book restaurants that accept online reservations—small Kyoto spots often fill weeks in advance, especially on weekends and festival nights."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise Temples & Tea",
+        "location": "Kyoto - Higashiyama",
+        "timeOfDay": "Early Morning",
+        "activities": [
+          "Visit Kiyomizu-dera right at opening for quiet temple grounds.",
+          "Stop at a traditional tea house for a matcha tasting.",
+          "Browse pottery shops and pick one shared keepsake for your home."
+        ],
+        "proTip": "Travel with one shared digital photo album and add your favorite three photos per day—this keeps the story tight for your interview showcase."
+      },
+      {
+        "day": 3,
+        "title": "Philosopher's Path & Café Hopping",
+        "location": "Kyoto - Northern Higashiyama",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Stroll along the Philosopher's Path at an unhurried pace.",
+          "Pause at small neighborhood cafés for coffee and seasonal sweets.",
+          "End the day with a quiet dinner at a local bistro."
+        ],
+        "proTip": "Choose one café to linger in without screens and use the time to reflect together on the trip so far."
+      },
+      {
+        "day": 4,
+        "title": "Arashiyama Bamboo & River",
+        "location": "Kyoto - Arashiyama",
+        "timeOfDay": "Morning & Afternoon",
+        "activities": [
+          "Visit the bamboo grove early to avoid mid-day crowds.",
+          "Take a riverside walk or short boat ride if weather allows.",
+          "Seek out a small soba or tofu restaurant for lunch."
+        ],
+        "proTip": "Leave one hour unscheduled in Arashiyama to simply sit by the river or wander side streets."
+      },
+      {
+        "day": 5,
+        "title": "Transit to Tokyo & Rooftop Drinks",
+        "location": "Kyoto to Tokyo",
+        "timeOfDay": "Afternoon & Evening",
+        "activities": [
+          "Ride the Shinkansen to Tokyo, using the time to read or journal.",
+          "Check into a hotel with city views.",
+          "End the night with rooftop drinks or a hotel bar with skyline vistas."
+        ],
+        "proTip": "Reserve window seats on the Shinkansen for a chance at Mt. Fuji views on clear days."
+      },
+      {
+        "day": 6,
+        "title": "Neighborhood Wanders & Hidden Bars",
+        "location": "Tokyo - Shimokitazawa or Koenji",
+        "timeOfDay": "Daytime & Evening",
+        "activities": [
+          "Explore a bohemian neighborhood full of vintage shops and record stores.",
+          "Share small plates at a standing bar or tiny restaurant.",
+          "Finish with a cocktail bar tucked above street level."
+        ],
+        "proTip": "Let one partner lead the evening \"without a map\" as a playful way to discover new spots together."
+      },
+      {
+        "day": 7,
+        "title": "Art Museums & Garden Breaks",
+        "location": "Tokyo - Roppongi or Ueno",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Visit a museum or gallery that aligns with your shared interests.",
+          "Take a break in a nearby park or garden when your feet need a rest.",
+          "Have a light dinner so you can still enjoy a late-night dessert stop."
+        ],
+        "proTip": "Choose one exhibit to go through slowly together instead of trying to see everything."
+      },
+      {
+        "day": 8,
+        "title": "Day Trip for Two",
+        "location": "Kamakura, Enoshima, or Hakone",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Visit a coastal or mountain town for a different pace.",
+          "Share snacks from local vendors as you walk.",
+          "Return to Tokyo for a simple dinner and an early night."
+        ],
+        "proTip": "Use this day to test how you split navigation, language, and logistics as a team."
+      },
+      {
+        "day": 9,
+        "title": "Free Day & Splurge Dinner",
+        "location": "Tokyo",
+        "timeOfDay": "Flexible",
+        "activities": [
+          "Give yourselves a day with no fixed agenda to follow your energy.",
+          "Book one special-occasion dinner at a restaurant you've both been excited about.",
+          "Take a late-night walk through a favorite neighborhood afterward."
+        ],
+        "proTip": "Treat this as your \"anniversary\" night even if the trip is not tied to a specific date."
+      },
+      {
+        "day": 10,
+        "title": "Departure & Story Capture",
+        "location": "Tokyo - Airport",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Travel to the airport with time to spare.",
+          "Capture a short voice memo or notes about what this trip meant to you as a couple.",
+          "Plan one simple ritual to bring home, like tea together on weekend mornings."
+        ],
+        "proTip": "Frame your favorite trip photo together once you're home to keep the memory visible."
+      }
+    ]
+  },
+  {
+    "id": "couples-winter-onsen",
+    "travelerType": "Couples",
+    "season": "Winter",
+    "durationDays": 10,
+    "title": "Snowy Onsen Retreat",
+    "summary": "Quiet snow scenes, hot springs, and multi-course dinners.",
+    "sources": ["13-day-cherry-blossoms-hiroshima", "10-day-ultimate-luxury"],
+    "days": [
+      {
+        "day": 1,
+        "title": "Tokyo to Snow Country",
+        "location": "Tohoku or Nagano",
+        "timeOfDay": "Morning & Evening",
+        "activities": [
+          "Take a scenic train to a ryokan town known for outdoor rotenburo (open-air baths).",
+          "Check into a room with a private open-air bath if possible.",
+          "Enjoy a kaiseki dinner in-room, moving at your own pace."
+        ],
+        "proTip": "Ask the ryokan staff to time your dinner after your private bath session—you’ll appreciate the relaxed transition between experiences."
+      },
+      {
+        "day": 2,
+        "title": "Snow Walks & Local Cafés",
+        "location": "Onsen Town",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Borrow yukata and clogs to stroll through the town’s narrow streets.",
+          "Visit a local café for hand-drip coffee and seasonal sweets.",
+          "End the day with a second onsen session under the night sky."
+        ],
+        "proTip": "Pack a compact, quick-dry towel for onsen hopping—ryokan towels are often large and stay damp between baths."
+      },
+      {
+        "day": 3,
+        "title": "Temple or Shrine in the Snow",
+        "location": "Nearby Town",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Visit a local shrine or temple blanketed in snow for peaceful photos.",
+          "Warm up with hot amazake or tea at a nearby shop.",
+          "Return to your ryokan for a quiet evening."
+        ],
+        "proTip": "Carry micro-spikes or good-traction boots if you plan to walk on potentially icy paths."
+      },
+      {
+        "day": 4,
+        "title": "Couples Spa & Massage Day",
+        "location": "Onsen Town",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Book a couples massage or spa treatment if available.",
+          "Alternate between reading, napping, and soaking in onsen.",
+          "Keep meals simple and light to match the slow pace."
+        ],
+        "proTip": "Use airplane mode for most of the day and treat this as an intentional digital reset."
+      },
+      {
+        "day": 5,
+        "title": "Transit Back Toward Tokyo",
+        "location": "Onsen Town to Tokyo",
+        "timeOfDay": "Afternoon",
+        "activities": [
+          "Ride a mid-day train back toward Tokyo or another city base.",
+          "Check into a hotel with easy station access.",
+          "Take an evening stroll through a nearby neighborhood."
+        ],
+        "proTip": "Pack snacks for the train so you can skip crowded station platforms at mealtimes."
+      },
+      {
+        "day": 6,
+        "title": "Winter City Stroll",
+        "location": "Tokyo - Central Area",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Visit winter illuminations or seasonal pop-ups in central Tokyo.",
+          "Duck into cafés when you get cold and people-watch from the window.",
+          "Share a warming nabe or oden dinner."
+        ],
+        "proTip": "Carry a compact umbrella—winter in Japan can bring both snow and rain."
+      },
+      {
+        "day": 7,
+        "title": "Museum or Gallery Pairing",
+        "location": "Tokyo - Roppongi or Ueno",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Choose one museum and one small gallery or shop that inspires you.",
+          "Walk between them if sidewalks are clear and conditions are safe.",
+          "Discuss which pieces felt most resonant over hot drinks."
+        ],
+        "proTip": "Use museum gift shops to pick up small pieces that remind you of the trip without taking too much suitcase space."
+      },
+      {
+        "day": 8,
+        "title": "Day Trip by the Sea",
+        "location": "Kamakura or Enoshima",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Head to the coast for winter ocean views and brisk walks.",
+          "Visit a seaside shrine or viewpoint.",
+          "Return to the city for a relaxed evening."
+        ],
+        "proTip": "Bring a scarf and hat—the seaside wind can feel much colder than the temperature suggests."
+      },
+      {
+        "day": 9,
+        "title": "Flexible City Day",
+        "location": "Tokyo",
+        "timeOfDay": "Flexible",
+        "activities": [
+          "Use this open day to revisit any favorite spot or explore somewhere new.",
+          "Keep the schedule loose so you can follow weather and energy levels.",
+          "End with a simple dinner at a neighborhood spot near your hotel."
+        ],
+        "proTip": "This is a good day to split up briefly if you each have a different \"one more thing\" you’d like to do."
+      },
+      {
+        "day": 10,
+        "title": "Departure & Warm Memories",
+        "location": "Tokyo - Airport",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Head to the airport with extra time for winter transit conditions.",
+          "Share your top three \"winter magic\" moments from the trip.",
+          "Make a quick list of what you would pack differently next time."
+        ],
+        "proTip": "Carry one onsen-scented item or small bath salt home to recreate a piece of the trip later."
+      }
+    ]
+  },
+  {
+    "id": "friends-summer-food-culture",
+    "travelerType": "Friends",
+    "season": "Summer",
+    "durationDays": 15,
+    "title": "Street Food, Rooftops & Nightlife",
+    "summary": "Shared plates, hidden bars, and flexible late starts.",
+    "sources": ["2-week-first-timer-blend-in", "3-week-itinerary-cities-alps"],
+    "days": [
+      {
+        "day": 1,
+        "title": "Osaka Street Food Crawl",
+        "location": "Osaka - Dotonbori / Namba",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Walk under Dotonbori’s neon signs and pick stalls for takoyaki and okonomiyaki.",
+          "Hop between standing bars (tachinomiya) for quick drinks and snacks.",
+          "Take group photos under the Glico running man sign."
+        ],
+        "proTip": "Agree on a shared cash pool for small bites so no one is stuck splitting tiny individual checks all night."
+      },
+      {
+        "day": 2,
+        "title": "Rooftop Beer Gardens",
+        "location": "Osaka - Umeda",
+        "timeOfDay": "Night",
+        "activities": [
+          "Spend the day casually shopping or resting.",
+          "Head to a department-store rooftop beer garden for all-you-can-eat-and-drink plans.",
+          "End with late-night karaoke in a private room."
+        ],
+        "proTip": "Use coin lockers near stations to store shopping bags before nightlife so you can move freely as a group."
+      },
+      {
+        "day": 3,
+        "title": "Coffee & Alleyway Bars",
+        "location": "Osaka - Kita or Namba",
+        "timeOfDay": "Daytime & Evening",
+        "activities": [
+          "Sample specialty coffee shops across one neighborhood.",
+          "Take an afternoon nap back at your stay.",
+          "Explore narrow alleyway bars with only a few seats each."
+        ],
+        "proTip": "Rotate who chooses the next bar or café to keep the day feeling co-created."
+      },
+      {
+        "day": 4,
+        "title": "Day Trip to Kyoto or Nara",
+        "location": "Kansai Region",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Take a quick train ride to Kyoto or Nara for temples and shrines.",
+          "Share sweets like mochi or matcha soft serve between friends.",
+          "Return to Osaka for dinner in a quieter backstreet."
+        ],
+        "proTip": "Pair one high-energy day (like Dotonbori) with a calmer temple day so the group doesn’t burn out."
+      },
+      {
+        "day": 5,
+        "title": "Shopping & Game Night In",
+        "location": "Osaka",
+        "timeOfDay": "Flexible",
+        "activities": [
+          "Shop for clothes, cosmetics, or souvenirs as a group.",
+          "Pick up convenience store snacks and drinks.",
+          "Have a low-key game or movie night back at your stay."
+        ],
+        "proTip": "Use this night to reset sleep schedules if the group’s rhythm has drifted."
+      },
+      {
+        "day": 6,
+        "title": "Transit to Tokyo & First Night Out",
+        "location": "Osaka to Tokyo",
+        "timeOfDay": "Afternoon & Evening",
+        "activities": [
+          "Ride the Shinkansen to Tokyo and check into a central neighborhood.",
+          "Grab an easy dinner near the station.",
+          "Explore one nightlife district, keeping plans open-ended."
+        ],
+        "proTip": "Book seats together in advance so the whole group shares the same car and row."
+      },
+      {
+        "day": 7,
+        "title": "Shibuya & Shinjuku Night",
+        "location": "Tokyo - Shibuya / Shinjuku",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Bounce between Shibuya Scramble, photo booths, and late-night ramen.",
+          "Walk through Omoide Yokocho or Golden Gai to peek into tiny bars.",
+          "End with dessert at a café that stays open late."
+        ],
+        "proTip": "Set a regroup time and place in case the group naturally splits across venues."
+      },
+      {
+        "day": 8,
+        "title": "Recovery Brunch & Vintage Shops",
+        "location": "Tokyo - Shimokitazawa or Koenji",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Sleep in and then head to brunch in a relaxed neighborhood.",
+          "Browse vintage clothing, records, or bookshops.",
+          "Return early and keep the evening flexible."
+        ],
+        "proTip": "Build in these \"soft\" days after big nights out to keep the trip sustainable."
+      },
+      {
+        "day": 9,
+        "title": "Omakase or Izakaya Night",
+        "location": "Tokyo",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Book a group-friendly izakaya or casual omakase spot.",
+          "Share dishes family-style so everyone tries something new.",
+          "Find a low-key bar or lounge to debrief the trip so far."
+        ],
+        "proTip": "Check group dietary needs when booking, and choose places that can easily adapt."
+      },
+      {
+        "day": 10,
+        "title": "Day Trip Adventure",
+        "location": "Nikko, Hakone, or Kamakura",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Spend the day exploring a different region together.",
+          "Take scenic photos and make inside jokes that will last beyond the trip.",
+          "Return to Tokyo ready for another low-key evening."
+        ],
+        "proTip": "Use a shared album so everyone can contribute their best shots from the day."
+      },
+      {
+        "day": 11,
+        "title": "Free Exploration Pods",
+        "location": "Tokyo",
+        "timeOfDay": "Flexible",
+        "activities": [
+          "Split into smaller groups based on interests: shopping, cafés, arcades, or museums.",
+          "Set a single meetup restaurant for dinner.",
+          "Share highlights from each \"pod\" afterwards."
+        ],
+        "proTip": "This is a good day for introverts to take some quieter solo time if needed."
+      },
+      {
+        "day": 12,
+        "title": "Photo & Content Day",
+        "location": "Tokyo - Various",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Revisit favorite streets or viewpoints for better photos in good light.",
+          "Film short clips or TikToks together.",
+          "Back up all phones and cameras in the evening."
+        ],
+        "proTip": "Nominate one friend as \"content producer\" to coordinate shots, while others just enjoy the moment."
+      },
+      {
+        "day": 13,
+        "title": "Last Big Night Out",
+        "location": "Tokyo - Nightlife District of Choice",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Choose one last area to go big: karaoke, bars, or clubs.",
+          "Take group photos at the start and end of the night.",
+          "Walk home together or share cabs with a clear plan."
+        ],
+        "proTip": "Agree on signals or code words if anyone needs a quieter corner or to call it a night early."
+      },
+      {
+        "day": 14,
+        "title": "Packing & Souvenir Day",
+        "location": "Tokyo",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Finalize souvenir shopping and snack stock-ups.",
+          "Pack methodically, weighing bags if needed.",
+          "Have an easy dinner close to your accommodation."
+        ],
+        "proTip": "Buy shared snacks for the flight so no one is stuck with only airplane options."
+      },
+      {
+        "day": 15,
+        "title": "Departure & Group Debrief",
+        "location": "Tokyo - Airport",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Travel to the airport together with time for check-in and security.",
+          "Share one key memory you'll carry forward from the trip.",
+          "Plan your \"next trip\" idea while it’s still fresh."
+        ],
+        "proTip": "Create a shared note capturing your favorite venues so future you—and future friends—can benefit."
+      }
+    ]
+  },
+  {
+    "id": "friends-winter-festivals",
+    "travelerType": "Friends",
+    "season": "Winter",
+    "durationDays": 15,
+    "title": "Winter Lights & Local Izakaya",
+    "summary": "Illuminations, hot pots, and cozy shared stays.",
+    "sources": ["2-week-first-timer-blend-in", "8-day-highlight-of-japan"],
+    "days": [
+      {
+        "day": 1,
+        "title": "Tokyo Winter Illuminations",
+        "location": "Tokyo - Roppongi / Shinjuku",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Check out seasonal illuminations in Roppongi Hills or Shinjuku’s Southern Terrace.",
+          "Warm up with nabe (hot pot) at a local izakaya.",
+          "Stop by a convenience store for late-night snacks to share back at your stay."
+        ],
+        "proTip": "Keep one shared group calendar with illumination and festival dates—many are short-lived but unforgettable in photos."
+      },
+      {
+        "day": 2,
+        "title": "Day Trip & Onsen Finish",
+        "location": "Kawagoe or Yokohama",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Take a short train ride to a nearby town with historic streets and snack alleys.",
+          "Sample sweets and street food while exploring old warehouses or harbor views.",
+          "End at a spa complex with multiple baths and relaxation rooms before heading back."
+        ],
+        "proTip": "Carry a lightweight scarf—it doubles as warmth on platforms, a modesty cover in shrines, and a pillow on trains."
+      },
+      {
+        "day": 3,
+        "title": "Snowy Shrine Visit",
+        "location": "Tokyo or Nearby Town",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Visit a shrine or temple in light snow for atmospheric photos.",
+          "Warm up with hot drinks from a vending machine or café.",
+          "Finish with shared izakaya plates."
+        ],
+        "proTip": "Remind everyone to bring gloves—touching snowy railings without them gets old quickly."
+      },
+      {
+        "day": 4,
+        "title": "Indoor Arcade & Game Café",
+        "location": "Tokyo - Akihabara or Ikebukuro",
+        "timeOfDay": "Afternoon & Evening",
+        "activities": [
+          "Spend time in arcades and game cafés away from the cold.",
+          "Compete in rhythm games or co-op challenges.",
+          "Have a casual dinner nearby."
+        ],
+        "proTip": "Set a time limit or budget for arcades so you still have energy for the rest of the night."
+      },
+      {
+        "day": 5,
+        "title": "Sapporo or Northern City Hop",
+        "location": "Hokkaido or Tohoku",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Fly or take a long-distance train to a northern city known for winter festivals.",
+          "Check into accommodation walking distance from main sights.",
+          "Sample regional winter specialties for dinner."
+        ],
+        "proTip": "Pack a smaller overnight bag for this segment so you’re not dragging full-size luggage through snow."
+      },
+      {
+        "day": 6,
+        "title": "Snow Festival Day",
+        "location": "Festival Grounds",
+        "timeOfDay": "Daytime & Evening",
+        "activities": [
+          "Spend the day exploring snow or ice sculptures and festival food stalls.",
+          "Take group photos at iconic installations.",
+          "Warm up in cafés or indoor spaces between walks."
+        ],
+        "proTip": "Use heat packs in your pockets and boots to stay outside longer without getting uncomfortable."
+      },
+      {
+        "day": 7,
+        "title": "Onsen Night with Friends",
+        "location": "Near Festival City",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Visit an onsen or sento as a group.",
+          "Share stories from the trip so far in the relaxation room.",
+          "End the night with convenience store snacks at your stay."
+        ],
+        "proTip": "Review onsen etiquette together beforehand so everyone feels confident going in."
+      },
+      {
+        "day": 8,
+        "title": "Transit Back South",
+        "location": "Northern City to Tokyo",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Take a train or flight back toward central Japan.",
+          "Use travel time to rest, edit photos, or play games together.",
+          "Keep the evening schedule light."
+        ],
+        "proTip": "Build generous buffer time around winter travel days to absorb delays without stress."
+      },
+      {
+        "day": 9,
+        "title": "Shopping & Indoor Markets",
+        "location": "Tokyo",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Explore covered shopping streets or department store food halls.",
+          "Snack your way through different regional foods.",
+          "Return early and keep the night open."
+        ],
+        "proTip": "Agree on a meeting point in busy indoor markets in case the group gets separated."
+      },
+      {
+        "day": 10,
+        "title": "Illuminations Round Two",
+        "location": "Different Neighborhood",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Visit another set of winter lights in a new part of the city.",
+          "Try a different style of izakaya or hot pot restaurant.",
+          "Stop for late-night desserts or drinks."
+        ],
+        "proTip": "Compare which illumination displays felt more magical and why—this helps sharpen your travel storytelling."
+      },
+      {
+        "day": 11,
+        "title": "Free Day for Micro Groups",
+        "location": "Tokyo",
+        "timeOfDay": "Flexible",
+        "activities": [
+          "Break into micro groups for highly tailored plans: shopping, photos, cafés, or rest.",
+          "Set a shared dinner spot as your anchor.",
+          "Keep the evening relaxed."
+        ],
+        "proTip": "Encourage everyone to check in on their own energy level and choose accordingly."
+      },
+      {
+        "day": 12,
+        "title": "Board Games & Cozy Night In",
+        "location": "Accommodation",
+        "timeOfDay": "Evening",
+        "activities": [
+          "Stock up on snacks and drinks from nearby shops.",
+          "Play board games, card games, or co-op video games together.",
+          "Use this as a mid-trip reset night."
+        ],
+        "proTip": "Nights in are often the ones friends remember most—build at least one into every long trip."
+      },
+      {
+        "day": 13,
+        "title": "Café Hopping & Viewpoints",
+        "location": "Tokyo - Various",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "String together a route of favorite or new cafés across the city.",
+          "Visit an observation deck for daytime winter views.",
+          "Have a simple dinner to match the slower pace."
+        ],
+        "proTip": "Limit each café stop to 45–60 minutes so you keep the day moving."
+      },
+      {
+        "day": 14,
+        "title": "Souvenir & Packing Day",
+        "location": "Tokyo",
+        "timeOfDay": "Daytime",
+        "activities": [
+          "Finish all souvenir shopping and snack stock-ups.",
+          "Pack bags carefully and weigh them if needed.",
+          "Choose a final izakaya or restaurant that suits the whole group."
+        ],
+        "proTip": "Consolidate shared items—like snacks or gifts—to avoid duplicate purchases."
+      },
+      {
+        "day": 15,
+        "title": "Departure & Highlight Reel",
+        "location": "Tokyo - Airport",
+        "timeOfDay": "Morning",
+        "activities": [
+          "Head to the airport together with extra time for winter conditions.",
+          "Share your top three personal highlights and one group highlight.",
+          "Start drafting a shared album or reel title on the way home."
+        ],
+        "proTip": "Save your group highlight reel idea somewhere you’ll see it, so it actually gets made after the trip."
+      }
+    ]
+  }
+]
