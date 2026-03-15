@@ -3,7 +3,7 @@
 import { useMemo, useState, useEffect } from "react";
 import {
   Baby, Filter, Heart, MapPin, Sparkles, Sun, Snowflake,
-  Users, Clock, Lightbulb, AlertTriangle, Database, FileText
+  Users, Clock, Lightbulb, AlertTriangle, Database, FileText, Menu, X
 } from "lucide-react";
 import { getFilteredItineraries } from "@/lib/dataSources";
 import { validateItineraryLogic, TravelConstraints } from "@/utils/itineraryLogic";
@@ -40,6 +40,7 @@ export default function Home() {
   const [selectedSeason, setSelectedSeason] = useState<Season>("Summer");
   const [selectedDuration, setSelectedDuration] = useState<DurationOption>(5);
   const [warnings, setWarnings] = useState<string[]>([]);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Hybrid data: Local itineraries + RAG (knowledge_base PDFs)
   const { itineraries: filteredItineraries, sourcesUsed, knowledgeBySourceId } = useMemo(
@@ -69,78 +70,140 @@ export default function Home() {
   const currentTravelerConfig = travelerTypeConfig[selectedTravelerType];
   const currentSeasonConfig = seasonConfig[selectedSeason];
 
+  const closeMobileMenu = () => setMobileMenuOpen(false);
+
+  const sidebarContent = (
+    <>
+      <div className="mb-8 flex items-center gap-2">
+        <span className="inline-flex h-9 w-9 items-center justify-center rounded-full text-white" style={{ backgroundColor: crimson }}>
+          <MapPin className="h-5 w-5" />
+        </span>
+        <div>
+          <p className="text-xs font-semibold tracking-[0.22em] text-neutral-500 text-nowrap">JAPAN TRAVEL APP</p>
+          <h1 className="text-lg font-semibold tracking-tight text-neutral-900">Japan-Go!</h1>
+        </div>
+      </div>
+
+      <section className="mb-8">
+        <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">Traveler Type</h2>
+        <div className="space-y-2">
+          {(Object.keys(travelerTypeConfig) as TravelerType[]).map((type) => {
+            const config = travelerTypeConfig[type];
+            const Icon = config.icon;
+            const isActive = selectedTravelerType === type;
+            return (
+              <button
+                key={type}
+                onClick={() => { setSelectedTravelerType(type); closeMobileMenu(); }}
+                className={`flex w-full items-start gap-3 rounded-xl border px-3.5 py-3 text-left transition-all ${isActive ? "border-transparent bg-neutral-900 text-white shadow-md" : "border-neutral-200 hover:border-neutral-400"}`}
+              >
+                <Icon className="h-5 w-5 mt-0.5" />
+                <div>
+                  <p className="text-sm font-bold">{type}</p>
+                  <p className={`text-[11px] mt-0.5 ${isActive ? "text-neutral-300" : "text-neutral-500"}`}>{config.description}</p>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">Season</h2>
+        <div className="flex gap-2">
+          {(Object.keys(seasonConfig) as Season[]).map((season) => {
+            const Icon = seasonConfig[season].icon;
+            return (
+              <button
+                key={season}
+                onClick={() => { setSelectedSeason(season); closeMobileMenu(); }}
+                className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-full border text-xs font-bold ${selectedSeason === season ? "bg-neutral-900 text-white" : "bg-neutral-50 text-neutral-600"}`}
+              >
+                <Icon className="h-3.5 w-3.5" /> {season}
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">Duration</h2>
+        <div className="flex gap-2">
+          {[5, 10, 15].map((d) => (
+            <button
+              key={d}
+              onClick={() => { setSelectedDuration(d as DurationOption); closeMobileMenu(); }}
+              className={`flex-1 py-2 rounded-full border text-xs font-bold ${selectedDuration === d ? "bg-neutral-900 text-white" : "bg-neutral-50 text-neutral-600"}`}
+            >
+              {d} Days
+            </button>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+
   return (
     <div className="min-h-screen bg-white text-neutral-900">
-      <div className="mx-auto flex min-h-screen max-w-7xl">
-        
-        {/* Sidebar */}
-        <aside className="sticky top-0 hidden h-screen w-full max-w-xs border-r border-neutral-200 bg-white/95 px-6 py-8 shadow-sm lg:block">
-          <div className="mb-8 flex items-center gap-2">
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full text-white" style={{ backgroundColor: crimson }}>
-              <MapPin className="h-5 w-5" />
-            </span>
-            <div>
-              <p className="text-xs font-semibold tracking-[0.22em] text-neutral-500 text-nowrap">JAPAN TRAVEL APP</p>
-              <h1 className="text-lg font-semibold tracking-tight text-neutral-900">Japan-Go!</h1>
-            </div>
+      {/* Mobile: menu button + drawer */}
+      <header className="sticky top-0 z-30 flex lg:hidden items-center justify-between gap-4 border-b border-neutral-200 bg-white/95 backdrop-blur px-4 py-3">
+        <div className="flex items-center gap-2">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-full text-white" style={{ backgroundColor: crimson }}>
+            <MapPin className="h-5 w-5" />
+          </span>
+          <div>
+            <p className="text-[10px] font-semibold tracking-[0.2em] text-neutral-500">JAPAN TRAVEL APP</p>
+            <h1 className="text-base font-semibold tracking-tight text-neutral-900">Japan-Go!</h1>
           </div>
+        </div>
+        <button
+          type="button"
+          onClick={() => setMobileMenuOpen(true)}
+          className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-neutral-200 bg-white text-neutral-700 hover:bg-neutral-50"
+          aria-label="Open menu"
+        >
+          <Menu className="h-5 w-5" />
+        </button>
+      </header>
 
-          <section className="mb-8">
-            <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">Traveler Type</h2>
-            <div className="space-y-2">
-              {(Object.keys(travelerTypeConfig) as TravelerType[]).map((type) => {
-                const config = travelerTypeConfig[type];
-                const Icon = config.icon;
-                const isActive = selectedTravelerType === type;
-                return (
-                  <button
-                    key={type}
-                    onClick={() => setSelectedTravelerType(type)}
-                    className={`flex w-full items-start gap-3 rounded-xl border px-3.5 py-3 text-left transition-all ${isActive ? "border-transparent bg-neutral-900 text-white shadow-md" : "border-neutral-200 hover:border-neutral-400"}`}
-                  >
-                    <Icon className="h-5 w-5 mt-0.5" />
-                    <div>
-                      <p className="text-sm font-bold">{type}</p>
-                      <p className={`text-[11px] mt-0.5 ${isActive ? "text-neutral-300" : "text-neutral-500"}`}>{config.description}</p>
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
-          </section>
+      {/* Mobile drawer backdrop */}
+      {mobileMenuOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/50 lg:hidden"
+          onClick={closeMobileMenu}
+          aria-hidden="true"
+        />
+      )}
 
-          <section className="mb-8">
-            <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">Season</h2>
-            <div className="flex gap-2">
-              {(Object.keys(seasonConfig) as Season[]).map((season) => {
-                const Icon = seasonConfig[season].icon;
-                return (
-                  <button
-                    key={season}
-                    onClick={() => setSelectedSeason(season)}
-                    className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-full border text-xs font-bold ${selectedSeason === season ? "bg-neutral-900 text-white" : "bg-neutral-50 text-neutral-600"}`}
-                  >
-                    <Icon className="h-3.5 w-3.5" /> {season}
-                  </button>
-                );
-              })}
-            </div>
-          </section>
+      {/* Mobile drawer panel */}
+      <div
+        className={`fixed left-0 top-0 bottom-0 z-50 w-[min(320px,85vw)] max-w-full bg-white shadow-xl transition-transform duration-200 ease-out lg:hidden ${
+          mobileMenuOpen ? "translate-x-0" : "-translate-x-full pointer-events-none"
+        }`}
+        aria-modal="true"
+        aria-label="Filters"
+        aria-hidden={!mobileMenuOpen}
+      >
+        <div className="flex h-full flex-col overflow-y-auto px-6 py-6">
+          <div className="mb-6 flex items-center justify-between">
+            <span className="text-sm font-bold text-neutral-900">Filters</span>
+            <button
+              type="button"
+              onClick={closeMobileMenu}
+              className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-neutral-200 text-neutral-600 hover:bg-neutral-50"
+              aria-label="Close menu"
+            >
+              <X className="h-5 w-5" />
+            </button>
+          </div>
+          {sidebarContent}
+        </div>
+      </div>
 
-          <section className="mb-8">
-            <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">Duration</h2>
-            <div className="flex gap-2">
-              {[5, 10, 15].map((d) => (
-                <button
-                  key={d}
-                  onClick={() => setSelectedDuration(d as DurationOption)}
-                  className={`flex-1 py-2 rounded-full border text-xs font-bold ${selectedDuration === d ? "bg-neutral-900 text-white" : "bg-neutral-50 text-neutral-600"}`}
-                >
-                  {d} Days
-                </button>
-              ))}
-            </div>
-          </section>
+      <div className="mx-auto flex min-h-screen max-w-7xl">
+        {/* Desktop Sidebar */}
+        <aside className="sticky top-0 hidden h-screen w-full max-w-xs border-r border-neutral-200 bg-white/95 px-6 py-8 shadow-sm lg:block">
+          {sidebarContent}
         </aside>
 
         {/* Main Content Area */}
